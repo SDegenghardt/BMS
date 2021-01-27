@@ -1,6 +1,6 @@
 #<<<<<<<<<<<HEAD 
 
-##Pr‰ambel
+##Pr√§ambel
 setwd("Z:/Aktuell/Eigene Dateien/Eigene Dateien_Sarah/R/Skripte")
 
 #loading custom functions
@@ -12,6 +12,8 @@ library(tidyverse)
 library(ggpubr)
 library(rstatix)
 library(readxl)
+
+# Danke Marc!
 
 #########################################
 #                                       #
@@ -99,16 +101,16 @@ plot$stat_test_results # get the statistical results
 plot$stat_test_results %>% print(n="all")
 
 
-# Probleme bzw. Dinge, die wir uns ¸berlegen m¸ssen
+# Probleme bzw. Dinge, die wir uns √ºberlegen m√ºssen
   # negative Werte -> als NA setzen? als 0 setzen? den niedrigsten Wert addieren sodass es keine negativen Werte gibt? miRNAs, die negative Werte haben
     # nicht mit auswerten?
   # welcher stat test --> wilcoxon oder t.test? 
   # normale Expressiondaten oder log-transformierte Daten? 
-    # Expressiondaten sind log-normalverteilt, daher w¸rde ich log-transformierte Daten mit einem T-Test auswerten
-    # Das Problem dabei ist, dass manche miRNAs dann nicht gen¸gend Observationen f¸r statistische Tests haben --> mˆglicherweise muss man die miRNAs
-      # dann komplett von der Analyse ausschlieﬂen
+    # Expressiondaten sind log-normalverteilt, daher w√ºrde ich log-transformierte Daten mit einem T-Test auswerten
+    # Das Problem dabei ist, dass manche miRNAs dann nicht gen√ºgend Observationen f√ºr statistische Tests haben --> m√∂glicherweise muss man die miRNAs
+      # dann komplett von der Analyse ausschlie√üen
 
-# Ansatz momentan: Normale Expressionsdaten ohne Korrektur negativer Werte, um eine ‹bersicht zu bekommen
+# Ansatz momentan: Normale Expressionsdaten ohne Korrektur negativer Werte, um eine √úbersicht zu bekommen
 
 
 
