@@ -14,6 +14,7 @@ library(rstatix)
 library(readxl)
 
 # Danke Marc!
+# Zuhause konnte ich Github Dektop installieren, aber wie ist das mit dem Repository? Was kopiere ich wo hin? 
 
 
 #########################################
