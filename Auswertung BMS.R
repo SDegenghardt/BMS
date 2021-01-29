@@ -14,8 +14,7 @@ library(rstatix)
 library(readxl)
 
 # Danke Marc!
-# Zuhause konnte ich Github Dektop installieren, aber wie ist das mit dem Repository? Was kopiere ich wo hin? 
-
+# Kannst du das hier eigentlich lesen? Was mache ich bei Error in is.data.frame(x) : object 'dat_BMS' not found??
 
 #########################################
 #                                       #
