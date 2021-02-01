@@ -13,8 +13,6 @@ library(ggpubr)
 library(rstatix)
 library(readxl)
 
-# Danke Marc!
-# Kannst du das hier eigentlich lesen? Was mache ich bei Error in is.data.frame(x) : object 'dat_BMS' not found??
 
 #########################################
 #                                       #
